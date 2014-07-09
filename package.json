@@ -1,0 +1,29 @@
+{
+  "name": "css-height-scale",
+  "version": "0.0.1",
+  "homepage": "http://github.com/mrmrs/css-height-scale",
+  "description": "Css module of single purpose classes for height scale",
+  "keywords": [
+    "css",
+    "oocss",
+    "",
+    ""
+  ],
+  "css-height-scale": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/css-height-scale.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/repo/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    { "name": "Adam Morse", "email": "hi@mrmrs.cc" }
+  ],
+  "license": "MIT"
+}
