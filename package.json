@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "height-scale"
   ],
   "css-height-scale": {
     "type": "git",
