@@ -30,7 +30,7 @@ or download the css on github and include in your project.
 .ht9   { height: 96rem; }
 .ht10  { height: 128rem; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .ht1-ns   { height: 1rem; }
   .ht2-ns   { height: 2rem; }
   .ht3-ns   { height: 4rem; }
@@ -43,7 +43,7 @@ or download the css on github and include in your project.
   .ht10-ns  { height: 128rem; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ht1-m   { height: 1rem; }
   .ht2-m   { height: 2rem; }
   .ht3-m   { height: 4rem; }
@@ -56,7 +56,7 @@ or download the css on github and include in your project.
   .ht10-m  { height: 128rem; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .ht1-l   { height: 1rem; }
   .ht2-l   { height: 2rem; }
   .ht3-l   { height: 4rem; }
