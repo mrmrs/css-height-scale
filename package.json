@@ -1,7 +1,7 @@
 {
   "name": "css-height-scale",
   "style": "height-scale.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "http://github.com/mrmrs/css-height-scale",
   "description": "Css module of single purpose classes for height scale",
   "keywords": [
