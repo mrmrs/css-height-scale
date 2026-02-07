@@ -15,16 +15,16 @@
 .ht10  { height: 128rem; }
 
 @media screen and (min-width: 48em) {
-  .ht1-ns   { height: 1rem; }
-  .ht2-ns   { height: 2rem; }
-  .ht3-ns   { height: 4rem; }
-  .ht4-ns   { height: 8rem; }
-  .ht5-ns   { height: 16rem; }
-  .ht6-ns   { height: 32rem; }
-  .ht7-ns   { height: 48rem; }
-  .ht8-ns   { height: 64rem; }
-  .ht9-ns   { height: 96rem; }
-  .ht10-ns  { height: 128rem; }
+  .ht1-s   { height: 1rem; }
+  .ht2-s   { height: 2rem; }
+  .ht3-s   { height: 4rem; }
+  .ht4-s   { height: 8rem; }
+  .ht5-s   { height: 16rem; }
+  .ht6-s   { height: 32rem; }
+  .ht7-s   { height: 48rem; }
+  .ht8-s   { height: 64rem; }
+  .ht9-s   { height: 96rem; }
+  .ht10-s  { height: 128rem; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
