@@ -14,7 +14,7 @@
 .ht9   { height: 96rem; }
 .ht10  { height: 128rem; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .ht1-s   { height: 1rem; }
   .ht2-s   { height: 2rem; }
   .ht3-s   { height: 4rem; }
@@ -27,7 +27,7 @@
   .ht10-s  { height: 128rem; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .ht1-m   { height: 1rem; }
   .ht2-m   { height: 2rem; }
   .ht3-m   { height: 4rem; }
@@ -40,7 +40,7 @@
   .ht10-m  { height: 128rem; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .ht1-l   { height: 1rem; }
   .ht2-l   { height: 2rem; }
   .ht3-l   { height: 4rem; }
