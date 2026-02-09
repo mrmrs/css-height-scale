@@ -1,38 +1,44 @@
 {
   "name": "css-height-scale",
-  "style": "height-scale.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-height-scale",
-  "description": "Css module of single purpose classes for height scale",
+  "version": "2.0.0",
+  "description": "Functional CSS for height-scale",
+  "style": "dist/height-scale.css",
+  "main": "dist/height-scale.css",
+  "exports": {
+    ".": "./dist/height-scale.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "height-scale"
+    "height-scale",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-height-scale": {
+  "homepage": "https://github.com/mrmrs/css-height-scale",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-height-scale.git"
+    "url": "https://github.com/mrmrs/css-height-scale.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-height-scale/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-height-scale/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
